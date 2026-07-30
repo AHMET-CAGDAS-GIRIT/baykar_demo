@@ -1,0 +1,43 @@
+{
+    "Total Samples Tested": 110,
+    "Retrieval Metrics": {
+        "Hit Rate@3 (Overall)": 1.0,
+        "MRR (Mean Reciprocal Rank) (Overall)": 1.0,
+        "Modality Breakdown": {
+            "text": {
+                "Total": 95,
+                "Hits": 95,
+                "Hit Rate@3": 1.0,
+                "MRR": 1.0
+            },
+            "image_and_text": {
+                "Total": 15,
+                "Hits": 15,
+                "Hit Rate@3": 1.0,
+                "MRR": 1.0
+            }
+        },
+        "Retrieval Latency (ms)": {
+            "p50": 2950.3185153007507,
+            "p95": 5120.060530900955,
+            "Average": 3170.1570348306136
+        }
+    },
+    "Generation & Quality Metrics": {
+        "Faithfulness / Groundedness": 0.5454545454545454,
+        "Answer Relevance (1-5 Scale)": 3.090909090909091,
+        "Citation Correctness": 0.0,
+        "Citation Completeness": 0.0,
+        "Refusal Accuracy (Kanıt Yok / Güvenlik Doğru Çekimserlik Oranı)": 0.35,
+        "Generation Latency (ms)": {
+            "p50": 6884.076535701752,
+            "p95": 11946.807905435562,
+            "Average": 7397.033081271432
+        },
+        "End-to-End Latency (ms)": {
+            "p50": 9834.395051002502,
+            "p95": 17066.868436336517,
+            "Average": 10567.190116102045
+        }
+    }
+}

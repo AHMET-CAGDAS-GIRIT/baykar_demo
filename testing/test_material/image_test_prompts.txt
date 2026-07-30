@@ -1,0 +1,18 @@
+# "#" işaretiyle başlayan satırlar evalute.py tarafından okunmuyor.
+# "/" ifadesinden öncesi "prompt", sonrası ise fotoğraf adıdır.
+
+Bu filmde akciğerde lekeli bir yer var, bu ne anlama geliyor ve önemli bir şey mi? /atypical_Pneumonia.jpg
+Bu kafa filminde boyun ve omurilik kısmında normal olmayan bir durum görünüyor mu? /axial_axis_mri.jpg
+Bu beyin filminde beynin sol tarafında bir sorun olduğu söyleniyor, burası tam olarak neyi etkiliyor? /axial_stroke.jpg
+Bu karaciğer görüntüsünde yüzeyin pürüzlü ve bozuk olduğu görülüyor, bu karaciğerin yorulduğunu mu gösteriyor? /cirrhosis.jpg
+Midenin bu görüntüsünde bir yara ya da kitle gibi duran bir şey var, bu kötü huylu bir duruma mı işaret ediyor? /gastric_carcinoma.jpg
+Bu kemik filmindeki gariplikler ve lekeler vücuttaki nadir bir hastalığın izleri mi? /gaucher_disease.jpg
+Bu el filminde parmaklarda ve eklemlerde bir eğrilik ya da yıpranma var mi? /hand_x_ray.jpg
+Bu kol kemiği filminde herhangi bir kırık ya da çatlak görünüyor mu, tamamen sağlıklı mı? /healty_humerus.jpg
+Bu beyin filminde ortadaki çizgiler ve simetri normal mi, bir kayma var mı? /healty_midline_brain.jpg
+Sol akciğerin alt kısmında görülen bu büyük leke neyin habercisi, kötü bir şey olabilir mi? /left_lower_lobe_lung_cancer.png
+Bel bölgesinin bu filminde omurgada bir aşınma veya disklerde bir sorun görünmüyor değil mi? /lumbar_spine.jpg
+Bu göğüs filminde sağ üst tarafta beliren bu gölge veya kitle nedir? /lung_cancer.jpg
+Bu karın filminde sol taraftaki bu organ normalden çok mu büyük duruyor? /Splenomegaly.jpg
+Midenin iç kısmındaki bu bozukluk ve yara gibi duran yer ciddi bir hastalığın belirtisi mi? /stomach_cancer.jpg
+Kalça kemiğine takılan bu metal çivi ve vidalar doğru düzgün yerleştirilmiş mi? /Trochanteric nail.jpg

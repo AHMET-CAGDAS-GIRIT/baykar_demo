@@ -1,0 +1,5 @@
+{
+  "max_memory_bytes": 3865470566, 
+  "device": "cuda",
+  "max_threads": 4
+}

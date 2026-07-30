@@ -1,0 +1,47 @@
+services:
+  # Vektör Veritabanı (Örn: Qdrant)
+  qdrant:
+    image: qdrant/qdrant:v1.7.4
+    container_name: rag_vector_db
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    restart: unless-stopped
+
+  # FastAPI Backend
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: rag_backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      # İşlenen PDF ve thumbnail'lerin persistent kalması için volume
+      - ./backend/data:/app/data
+    
+
+      # Hugging Face model önbelleği için taşınabilir Docker volume
+      - hf_cache:/root/.cache/huggingface
+    depends_on:
+      - qdrant
+    restart: unless-stopped
+
+  # React Frontend
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: rag_frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  qdrant_data:
+  hf_cache:

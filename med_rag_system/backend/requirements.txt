@@ -1,0 +1,35 @@
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+pydantic>=2.7.0
+qdrant-client>=1.9.0
+openai>=1.30.0
+pytesseract>=0.3.10
+pdf2image>=1.17.0
+Pillow>=10.3.0
+python-dotenv>=1.0.1
+filetype>=1.2.0
+# Güvenlik Zafiyetlerini Süpüren Yan Paket Yamaları (Transitive Dependencies)
+urllib3>=2.2.2
+certifi>=2024.7.4
+setuptools>=70.0.0
+# PDF ve fotoğraf işleme için ek paketler
+PyMuPDF>=1.23.0
+pytesseract>=0.3.10
+# RAG için kullanılacak paketler
+torch>=2.2.0
+transformers==4.49.0
+accelerate
+tf-keras
+traceback
+torchvision>=0.17.0
+bitsandbytes>=0.43.0
+sentence-transformers>=2.7.0
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+"huggingface_hub==0.25.2"
+llama-cpp-python
+--index-url https://download.pytorch.org/whl/cu121
+--extra-index-url https://pypi.org/simple
+gc
+qwen_vl_utils
