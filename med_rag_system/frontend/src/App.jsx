@@ -91,7 +91,7 @@ function App() {
 				<div className="max-w-5xl mx-auto flex justify-between items-center">
 					<h1 className="text-xl font-bold text-teal-400">Medikal RAG Asistanı</h1>
 					<span className="text-xs bg-teal-900 text-teal-300 px-3 py-1 rounded-full border border-teal-700">
-						Llama-3 & FAISS Destekli Multimodal Sistem
+						Qwen2 & FAISS Destekli Multimodal Sistem
 					</span>
 				</div>
 			</header>
