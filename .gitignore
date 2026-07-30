@@ -1,5 +1,5 @@
 med_rag_system/backend/data/*
 med_rag_system/backend/app/__pycache__
-med_rag_system/backend/app/.venv
+med_rag_system/backend/.venv
 med_rag_system/backend/app/models/*
 med_rag_system/frontend/node_modules
